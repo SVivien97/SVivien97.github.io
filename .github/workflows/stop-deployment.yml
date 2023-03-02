@@ -1,0 +1,21 @@
+name: Stop deploy
+
+on: workflow_dispatch
+
+jobs:
+  teardown-review:
+    runs-on: ubuntu-latest
+    environment:
+      name: demo
+    env:
+      DOMAIN: cica-foto-app
+      SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+      SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+    steps:
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v4
+      - name: Install Surge
+        run: npm install --global surge
+      - name: Teardown site
+        run: surge teardown $DOMAIN-$GITHUB_REF_SLUG.surge.sh
+      

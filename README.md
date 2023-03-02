@@ -8,7 +8,7 @@
         <a href=" https://www.instagram.com/indoor_adventures_of_berlioz/m"><img src="https://i.imgur.com/ajIOnyl.jpeg" alt="A huge tuxedo cat." height="300" width="300"></a>
       </section>
       <section>
-        <h2>More bbout the huge tuxedo cat</h2>
+        <h2>More about the huge tuxedo cat</h2>
         <h3>Things Berlioz love:</h3>
         <ul>
           <li>Food</li>

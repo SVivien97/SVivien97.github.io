@@ -46,7 +46,7 @@ jobs:
           name: website
           path: ./public
       - name: Test Artifact
-        run: grep "Hello" ./public/index.html
+        run: grep "BerliozPhotoApp" ./public/index.html
 
   deploy-review:
     runs-on: ubuntu-latest

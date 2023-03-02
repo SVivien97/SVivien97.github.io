@@ -16,7 +16,7 @@
           <li>Sleeping</li>
         </ul>
 <figure>
-          <img src="https://i.imgur.com/ucpAIHi.jpeg" alt="A huge tuxedo cat yawning." height="300" width="300">
+          <img src="https://i.imgur.com/ucpAIHi.jpeg" alt="A huge tuxedo cat yawning." height="350" width="350">
           <figcaption>Berlioz <em>choose</em> violance.</figcaption>  
         </figure>
 </section>
